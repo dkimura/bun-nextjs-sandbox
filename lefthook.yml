@@ -2,7 +2,7 @@ pre-commit:
   parallel: true
   commands:
     front-lint:
-      glob: "*.{js,ts,jsx,tsx}"
+      glob: "*.{js,ts,jsx,tsx,json}"
       run: bun biome check {staged_files} --write
       stage_fixed: true
       skip:

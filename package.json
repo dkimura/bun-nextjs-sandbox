@@ -19,7 +19,7 @@
     "@types/node": "22.13.5",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
-    "lefthook": "1.10.10",
+    "lefthook": "1.10.11",
     "typescript": "5.7.3"
   },
   "trustedDependencies": ["@biomejs/biome"]
